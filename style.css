@@ -150,7 +150,7 @@ header{
     font-family: var(--font-primaria);
     font-weight: 200;
     text-shadow: .3rem .4rem 2px rgba(0, 0, 0, 0.4);
-    line-height: 3.5rem;
+    line-height: 1.5rem; /* separa o paragrafo do texto*/
     margin-bottom: 2rem;
     opacity: 0;
     animation: moveBanner 1s 0.5s forwards; 
@@ -201,7 +201,8 @@ header{
     position: fixed;
     top: 0;
     right: -20rem;
-    transition: all 0.45s;
+    transition: all .45s ease-in-out;
+    opacity: 94%;
 }
 
 .show-menu .sidebar{
