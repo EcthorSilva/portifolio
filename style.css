@@ -1,6 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400;500;600;700&family=Josefin+Slab:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Muli:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css');
 
+@font-face {
+    font-family: 'Product Sans Light';
+    src: url('../fonts/ProductSans-Light.woff2') format('woff2'),
+        url('../fonts/ProductSans-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans Regular';
+    src: url('../fonts/ProductSans-Regular.woff2') format('woff2'),
+        url('../fonts/ProductSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Product Sans Bold';
+    src: url('../fonts/ProductSans-Bold.woff2') format('woff2'),
+        url('../fonts/ProductSans-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -9,9 +36,9 @@
 }
 
 :root{
-    --font-primaria: "Baloo Da 2", serif;
-    --font-secondaria: "Josefin Slab", serif;
-    --font-action: "Muli", serif;
+    --font-primaria: "Product Sans Bold", serif;
+    --font-secondaria: "Product Sans Regular", serif;
+    --font-action: "Product Sans Light", serif;
 }
 
 .hamburguer{
@@ -149,7 +176,7 @@ header{
     background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 1rem 3rem;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     opacity: 0;
     animation: moveBanner 1s 0.9s forwards;
