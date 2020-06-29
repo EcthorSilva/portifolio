@@ -182,13 +182,15 @@ header{
     animation: moveBanner 1s 0.9s forwards;
 }
 
-@keyframes moveBanner{
-    0%{
-        transform: translateY(10rem) rotateY(-30deg);
+@keyframes moveBanner {
+    0% {
+        opacity: 0;
+        transform: translateX(5%);
+        animation-timing-function: ease-in-out;
     }
-    100%{
-        transform: translateY(0) rotateY(0);
+    100% {
         opacity: 1;
+        transform: none;
     }
 }
 
