@@ -1,6 +1,6 @@
 # portifolio
 
-Portifolio de Ecthor Silva
+Portifólio de desenvolvedor de Ecthor Silva para propósitos estudantis (for studying purposes).
 
 ## tarefas
 
