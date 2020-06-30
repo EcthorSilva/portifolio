@@ -14,3 +14,4 @@ Todo o controle das tarefas desse projeto será realizado no GitHub
 - :up: Atualização de algumas informações na pagina
 - :abc: Alterado a font para Google Sans (Sans Light, Sans Regular e Sans Bold)
 - :up: (aside) Correções no menu lateral
+- :closed_book: Finalização parcial da area conhecimentos (a procura de um desenho melhor)
