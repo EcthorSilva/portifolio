@@ -456,7 +456,7 @@ header{
 
 .contato-left{
     width: 35%;
-    background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22,22,0.9)), url(imagens/bg1.jpg);
+    background: linear-gradient(rgba(15, 15, 15, 0.6), rgba(22, 22,22,0.9)), url(./imagens/bg1.jpg); /* Oh mds, não sei o que to fazendo de arrado aqui. */
     background-size: cover;
 }
 
@@ -532,4 +532,78 @@ header{
     width: 20%;
     height: 2rem;
     
+}
+
+.sessao-orcamento{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(15, 15, 15, 0.1), rgba(22, 22,22,0.9)), url(./imagens/bg0.jpg);
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    /* Paralax */
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orcamento-wrapper{
+    width: 60%;
+    height: 80%;
+    background-color: #ffffff99;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 0.3rem, black;
+    position: relative;
+}
+
+.sessao-orcamento h1{
+    position: absolute;
+    top: -1.5rem;
+    left: 2rem;
+    background: #0F2027;  /* cor para navegadores antigos */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 0 3rem;
+    color: #fff;
+    font-family: var(--font-secondaria);
+    font-size: 2.5rem;
+    font-weight: lighter;
+    box-shadow: 0 0.1rem 0.3rem, black;
+    border-radius: 10px;
+}
+
+.sessao-orcamento form{
+    margin: 4rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 2rem;
+    row-gap: 2rem;
+}
+
+.sessao-orcamento label{
+    font-family: var(--font-secondaria);
+    font-size: 1.3rem;
+    font-weight: lighter; 
+}
+
+.sessao-orcamento input[type="number"]{
+    font-family: var(--font-secondaria);
+    width: 3rem;
+    font-size: 1rem;
+    outline: none;
+    border-radius: 10px;
+    border: none;
+    padding: 0.3rem;
+}
+
+.btn-orcamento{
+    text-transform: uppercase;
+    padding: 1rem;
+    cursor: pointer;
+    grid-column: 2;
 }
