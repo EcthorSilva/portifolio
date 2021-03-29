@@ -544,12 +544,12 @@ header{
     align-items: center;
     
     
-    /* Paralax 
+    /* Paralax */
 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;*/
+    background-size: cover;
 }
 
 .orcamento-wrapper{
