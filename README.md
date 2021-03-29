@@ -16,4 +16,4 @@ Todo o controle das tarefas desse projeto será realizado no GitHub
 - :up: Adicionado um Parallax na aba de orçamento
 - :up: Atualização de algumas informações na pagina
 - :up: (aside) Correções no menu lateral
-- :beetle: Mais correções de bugs
+- :beetle: A imagem da sessão contato e do parallax não estão aparecendo no GitHub Pages
